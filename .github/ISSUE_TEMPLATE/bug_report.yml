@@ -6,14 +6,14 @@ body:
     id: platform
     attributes:
       label: Platform
-      options: [Linux AppImage, Linux tarball, macOS (Apple Silicon), Windows (Store)]
+      options: [Linux AppImage, Linux tarball, Windows (Store)]
     validations:
       required: true
   - type: input
     id: system
     attributes:
       label: System
-      description: Distribution and version, or macOS version. Desktop (GNOME, KDE, ...) if you know it.
+      description: Distribution and version. Desktop (GNOME, KDE, ...) if you know it.
       placeholder: Ubuntu 24.04, GNOME on Wayland
     validations:
       required: true
