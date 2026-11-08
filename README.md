@@ -89,6 +89,8 @@ Get it from the [Microsoft Store](https://apps.microsoft.com/detail/9mvqsrqnnrh0
 winget install --id 9MVQSRQNNRH0 --source msstore
 ```
 
+**Without the Store:** [one-good-copy-0.2.0-windows-x64.zip](https://github.com/equilerex/one-good-copy-drive-scanner-app/releases/download/v0.2.0/one-good-copy-0.2.0-windows-x64.zip) (Windows 10 and 11, 64-bit). Unzip it anywhere you can write to and run `one-good-copy.exe`. The exe is not signed, so Windows shows "Windows protected your PC": click **More info**, then **Run anyway**. Your scan data stays in a `data` folder next to the exe. The Store version updates itself, the zip does not.
+
 ### Linux (x86_64)
 
 Snap Store: [one-good-copy](https://snapcraft.io/one-good-copy).
