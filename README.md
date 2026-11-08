@@ -78,7 +78,7 @@ First full scan, empty catalog. Rescans only check folders that changed.
 ## Install
 
 > [!NOTE]
-> Linux and macOS builds here are official builds with no support promise. Files only: no source is published here.
+> Linux and macOS builds here come with no support promise. Files only: no source is published here.
 
 ### Windows
 
