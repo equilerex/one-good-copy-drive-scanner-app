@@ -31,6 +31,8 @@ Built on Ubuntu 22.04, so it needs glibc 2.35 or newer. A desktop with Wayland o
 
 ## macOS (Apple Silicon, macOS 11 or newer)
 
+**Status:** the macOS build has not been published yet. It is built by hand on an Apple Silicon Mac, so it appears here when one is available. Steps below are for when it is.
+
 Download `one-good-copy-<version>-macos-arm64.dmg`, open it and drag One Good Copy to Applications.
 
 The app is not signed with an Apple developer certificate, so macOS blocks the first start:
@@ -56,6 +58,19 @@ shasum -a 256 -c SHA256SUMS  # macOS
 | macOS | `~/Library/Application Support/One Good Copy` |
 
 Logs are in the `logs` folder there. To uninstall, delete the app (or the AppImage) and that data folder.
+
+## Bugs and feature requests
+
+This repository is the place for both. Open an issue: [Report a bug or ask for a feature](../../issues/new/choose).
+
+For a bug, include:
+
+- Your system: Linux distribution and version, or macOS version, and whether it is the AppImage, tarball or dmg.
+- The app version (About page, or the file name you downloaded).
+- What you did, what you expected, what happened. A screenshot helps.
+- The end of `logs/app.log` from the data folder above. If the app closed by itself, also any `crash-*.log` file in the same folder. Look through them first: they list folder and file names from your scans.
+
+No support promise, but every issue is read.
 
 ## Updates
 
