@@ -12,6 +12,7 @@ Free · no ads · no account · fully offline</p>
 
 <p align="center">
   <a href="https://apps.microsoft.com/detail/9mvqsrqnnrh0"><img alt="Get it on Microsoft Store" src="https://img.shields.io/badge/Windows-Microsoft_Store-F95E16?style=flat-square"></a>
+  <a href="https://snapcraft.io/one-good-copy"><img alt="Get it from the Snap Store" src="https://img.shields.io/badge/Linux-Snap_Store-F95E16?style=flat-square"></a>
   <a href="../../releases"><img alt="Latest Linux release" src="https://img.shields.io/github/v/release/equilerex/one-good-copy-drive-scanner-app?include_prereleases&style=flat-square&label=Linux&color=F95E16"></a>
   <img alt="macOS coming soon" src="https://img.shields.io/badge/macOS-coming_soon-555?style=flat-square">
 </p>
@@ -89,6 +90,17 @@ winget install --id 9MVQSRQNNRH0 --source msstore
 ```
 
 ### Linux (x86_64)
+
+Snap Store: [one-good-copy](https://snapcraft.io/one-good-copy).
+
+```bash
+sudo snap install one-good-copy
+sudo snap connect one-good-copy:removable-media
+sudo snap connect one-good-copy:mount-observe
+sudo snap connect one-good-copy:system-observe
+```
+
+The snap runs confined: it reads your home folder and what the three connections allow. To scan any folder on any drive, use the AppImage or the tarball below.
 
 Latest release: [v0.2.0](https://github.com/equilerex/one-good-copy-drive-scanner-app/releases/tag/v0.2.0). AppImage:
 
